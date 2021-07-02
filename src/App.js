@@ -8,8 +8,6 @@ import OracionesContextProvider from './context/oracionesContext';
 
 function App() {
 
-  const labels = ['Positivo', 'Negativo', 'Neutral','Descartar']
-
   return (
     <div>
       <NavHeader />
@@ -23,8 +21,6 @@ function App() {
         </Switch>
       </BrowserRouter>
       </OracionesContextProvider>
-      
-      <p>pie de App</p>
     </div>
   );
 }
