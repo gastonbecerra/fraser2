@@ -9,19 +9,17 @@ const Example = () => {
         <div id="nueva">
             <div>
 
-            <h4>clasificar</h4>
+            <h4>Clasificar</h4>
             <Link to={{pathname: `/anotar/`}}>
                 <Button color="primary">Clasificar nueva frase</Button>{' '}
             </Link>
 
+            <p>&nbsp;</p>
+
             <h4>O elija un grupo de labels para editar</h4>
 
             <Botones />
-
-           <Link to={{pathname: `/listar/`}}>
-            <button color="success">no clasificado</button>{' '}
-           </Link>
-
+            
             </div>
         </div>
     );

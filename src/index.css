@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.estado_actual {
+  background-color: palevioletred;
+}
+
+.estados_botones {
+  background-color: peachpuff;
+  border: grey 1px solid;
+  padding: 1px;
+  margin: 2px;
+}

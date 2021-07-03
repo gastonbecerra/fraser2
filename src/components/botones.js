@@ -12,8 +12,7 @@ export default function Botones ( ) {
 
             {labels.map((l,i)=>(
                 <Link key={i} to={{pathname: `/listar/${l}`}}>
-                    <button type="button"> {l} </button>
-                    <br></br>
+                    <span className="estados_botones">{l}</span> 
                 </Link>
             ))}
 
