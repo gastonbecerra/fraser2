@@ -5,8 +5,11 @@ import Home from './components/home'
 import List from './components/list'
 import Anotar from './components/anotar'
 import OracionesContextProvider from './context/oracionesContext';
+import Settings from './settings.json';
 
 function App() {
+
+  console.log(Settings)
 
   return (
     <div>

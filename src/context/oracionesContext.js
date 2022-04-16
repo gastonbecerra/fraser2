@@ -1,12 +1,13 @@
 import React,{useState} from 'react';
+import Settings from '../settings.json';
 
 export const OracionesContext = React.createContext()
 
 const OracionesContextProvider = (props) => {
-    const [labels, setLabels] = useState(['positivo', 'negativo', 'neutral-descartar']);
+    const [labels, setLabels] = useState( Settings.labels );
 
     return(
-        <OracionesContext.Provider value={[labels]}>
+        <OracionesContext.Provider value={[labels, setLabels]}>
             {props.children}
         </OracionesContext.Provider>
     )

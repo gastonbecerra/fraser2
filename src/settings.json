@@ -1,0 +1,5 @@
+{
+    "labels" : ["positivo", "negativo", "neutral/descartar"] ,
+    "conexion_firebase" : false
+
+}
