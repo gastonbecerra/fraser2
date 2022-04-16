@@ -37,12 +37,19 @@ export default function List ( props ) {
                 <div>
                     {oraciones.map((o,i)=>(
                         <div key={i}>
-                            <p>
-                                {o.oracion} 
-                                <Link to={{pathname: `/editar/${o.id}`}}>
+                            <p> {o.link} </p>
+                            <p> {o.oraciones}  </p>
+                            <p><Link 
+                                to={{
+                                        pathname: `/editar/${o.id}`,
+                                        state: { 
+                                                redirected: true 
+                                            }
+                                    }}
+                                >
                                     <button>reclasificar</button>{' '}
                                 </Link>                               
-                            </p>
+</p>
                         </div>
                     ))}
                 </div>
