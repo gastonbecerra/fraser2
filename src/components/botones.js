@@ -1,5 +1,4 @@
-import React, { useState , useContext } from 'react';
-import { Button, Label } from 'reactstrap';
+import React, {  useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { OracionesContext } from '../context/oracionesContext';
 
@@ -8,13 +7,12 @@ export default function Botones ( ) {
     const [labels] = useContext(OracionesContext);
 
     return (
-        <div>
+        <div id="botonera">
             <div>
 
             {labels.map((l,i)=>(
                 <Link key={i} to={{pathname: `/listar/${l}`}}>
-                    <Button> {l} </Button>
-                    <br></br>
+                    <span className="estados_botones">{l}</span> 
                 </Link>
             ))}
 

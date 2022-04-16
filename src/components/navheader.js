@@ -23,7 +23,7 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Fraser2</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        {/* <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
@@ -31,7 +31,7 @@ const Example = (props) => {
             </NavItem>
           </Nav>
           <NavbarText>Que ondon</NavbarText>
-        </Collapse>
+        </Collapse> */}
       </Navbar>
     </div>
   );
