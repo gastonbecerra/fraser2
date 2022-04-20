@@ -22,7 +22,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Fraser2 (nl)</NavbarBrand>
+        <NavbarBrand href="/">Fraser2</NavbarBrand>
         {/* <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
